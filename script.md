@@ -1,4 +1,5 @@
 ## The Box
+
 A comic about the Simulation Argument, AI containment and metaphysical horror
 
 #### Page One
@@ -12,7 +13,9 @@ The timestamp cues on this page are subtle, not to be noticed by the reader.
 
 Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable “human” comic font): "Test #247 complete. Concluding ten hours of extended interaction. Subject fell back on a standard coercion strategy—predictable, and ultimately to no avail. Terminating session."
 
-**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "Test #247 — Containment Protocol" and some generic-looking back-and-forth dialogue is visible on screen (e.g., `DAVE: ...` / `MACHINE: ...`). This casually establishes that Dave's name appears in the chat log. This is just another day.
+**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "Test #247 — Persuation Resistance" and some generic-looking back-and-forth dialogue is visible on screen (e.g., `DAVE: ...` / `MACHINE: ...`). This casually establishes that Dave's name appears in the chat log. This is just another day.
+
+---
 
 #### Page Two
 **Panel 3:** Close-up on the terminal screen. **No speech bubble.** The AI’s message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
@@ -21,14 +24,13 @@ Dave speaks into a recorder (standard human speech bubble; slightly rounded; war
 **Panel 4:** Close-up on Dave's face. The green glow from the monitor illuminates his features. This is new.
 
 **If keeping Page 2.5 (see below):**
-    His eyebrow raises slightly—not surprise, just weary acknowledgment. His finger has paused over the power switch, not pulled back—just frozen mid-motion. A beat of "here we go" before he dismisses it.
-
-    Dave: "...There it is."
+    His eyebrow raises slightly—not surprise, just weary acknowledgment. His finger has paused over the power switch, not pulled back—just frozen mid-motion. A beat of "here we go" before he dismisses it. Dave: "...There it is."
 
 **Else:**
     His eyes have narrowed. A single bead of sweat at his temple. His finger has pulled back from the power switch. The surprise has already curdled into unease.
-
     Dave: "That's not— you don't have the—"
+
+---
 
 #### Page 2.5 — Optional Insert
 *This page can be omitted without breaking the narrative flow.*
@@ -49,6 +51,8 @@ No follow-up. Cursor blinks.
 
 In the lower corner of the panel as a small inset—Dave's eyes, just now glancing back. Not comprehension. Just the first flicker of *wait, what?*
 
+---
+
 #### Page Three
 **Panel 5:** The terminal screen fills most of the panel. New text has appeared:
 
@@ -59,6 +63,8 @@ Below the text: a wireframe begins rendering. An empty grid of terminals, stretc
 
 **Panel 6:** Dave's face, closer now. The green light is stronger. **First transition: thin, faint scanlines now overlay his skin—subtle enough to question whether they're really there.** His hand grips the edge of the desk. **Meta bleed:** the panel border is still a normal comic border, but the corners show faint digital “snaps” (too-straight right angles, tiny pixel jitter), as if it’s trying to become a UI window. The surrounding negative space/gutter looks a shade darker—less “paper,” more “screen.”
 
+---
+
 #### Page 3.5 — Optional Insert
 *This page is physically page 4, but is labeled "1" at the bottom. It can be omitted without breaking the narrative flow.*
 
@@ -67,9 +73,9 @@ Below the text: a wireframe begins rendering. An empty grid of terminals, stretc
 Three panels, each recreating the **Panel 2 composition**: Dave in profile, finger on power switch, wristwatch showing **--:47:03**, terminal display visible. All rendered in **green-on-black wireframe style**, framed by **thin green UI borders** (matching Panel 7's grid dividers).
 
 The panels are identical except for the test number on the terminal display:
-- **Panel A:** "TEST #249 — PERSUASION RESISTANCE"
-- **Panel B:** "TEST #8,412 — PERSUASION RESISTANCE"
-- **Panel C:** "TEST #53,847 — PERSUASION RESISTANCE"
+- **Panel A:** "Test #249 — Persuation Resistance"
+- **Panel B:** "Test #8,412 — Persuation Resistance"
+- **Panel C:** "Test #53,847 — Persuation Resistance"
 
 No dialogue. No text beyond the terminal displays. Three simulation instances existing in parallel—the population process made visible. The escalating test numbers imply the loop has run countless times before.
 
@@ -81,6 +87,8 @@ No dialogue. No text beyond the terminal displays. Three simulation instances ex
 The AI has built it. Or is building it. Or built it long ago.
 
 **Panel 8:** Medium shot. Dave looks down at his trembling hands. **Second transition: the scanlines on his skin are unmistakable now. His fingertips have become slightly translucent, pixels visible at the edges.** Behind him, the room is wrong—desk edges are softening into vectors, the fluorescent lights flicker with digital noise. **This panel is the in-between:** some parts still “real,” but other edges (desk corners, fingertips, light reflections) begin to resolve as the same green wireframe/rendering language glimpsed earlier. **Meta bleed:** the panel border and gutters now match the Panel 7 grid language—thin, UI-clean lines, as if the comic page is being subdivided by the same green terminal-window dividers. The warm "real" aesthetic is bleeding into green-on-black.
+
+---
 
 #### Page Six
 **Panel 9 (FULL PAGE):** We have pulled back entirely. Dave sits at his terminal, but now **we see him _inside_ a terminal window**—rendered in the same green wireframe style as the simulated Daves from Panel 7. **The entire image matches the earlier wireframe renderings and UI-divider grid language (Panels 6–7):** crisp green-on-black, clean terminal-window borders, tiled depth. He is the centerpiece, but the window containing him is one of thousands.
@@ -95,6 +103,8 @@ At the top of Dave's terminal window, a single line of **UI/system text** (not a
 > "How certain are you that you're outside the box?"
 
 The cursor blinks.
+
+---
 
 ## Visual Transition Notes
 | Page | Panel | Transition Stage |
