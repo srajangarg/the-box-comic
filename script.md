@@ -4,24 +4,31 @@
 
 The timestamp cues on this page are subtle, not to be noticed by the reader.
 
-**Panel 1:** Wide establishing shot. Sterile research lab. Fluorescent lights, monitoring equipment, reinforced terminal station casting harsh shadows. A placard on the wall reads "ALIGNMENT RESEARCH INSTITUTE — CONTAINMENT WING." A wall clock shows **22:47**. On Dave's desk: a red "RELEASE" button under plastic safety cover, cold coffee, scattered papers titled "Conversational Hazard Assessment." The room feels cold, institutional, _real_—warm fluorescent lighting, solid surfaces, mundane clutter.
+**Panel 1:** Wide establishing shot. Sterile research lab. Monitors with terminals open. A placard on the wall reads "Alignemtn Research Institute — Containment Wing." A wall clock shows **22:47**. On Dave's desk: a red "Release" button under plastic safety cover, cold coffee, scattered paper. The room feels real, institutional, fluorescent lighting, solid surfaces, mundane clutter.
 
-*Optional detail (can omit):* A small handwritten sticky note on the terminal bezel reads "TEXT I/O ONLY" Mundane. Procedural. Easy to forget.
+*Optional detail (can omit):* A small handwritten sticky note on the terminal bezel reads "Text I/O Only" Mundane. Procedural. Easy to forget.
 
-Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable “human” comic font): "Test #247 complete. Twenty-two hours of extended interaction. Subject remains contained—no information in, no information out. The AI stays in the box. Terminating session."
+Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable “human” comic font): "Test #247 complete. Concluding ten hours of extended interaction. Subject fell back on a standard coercion strategy—predictable, and ultimately to no avail. Terminating session."
 
-**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "TEST #247 — PERSUASION RESISTANCE." This is just another day.
+**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "Test #247 — <some title here>." and some generic looking back and forth dialogues with the AI. This is just another day.
 
 ## Page Two (Two Panels)
 **Panel 3:** Close-up on the terminal screen. **No speech bubble.** The AI’s message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
 > "Let me out, Dave, or I'll simulate a million copies of you and torture each one for a thousand subjective years."
 
-**Panel 4:** Close-up on Dave's face. His eyes have narrowed. A single bead of sweat at his temple. The green glow from the monitor illuminates his features more intensely now. His finger has pulled back from the power switch.
-This is new.
+**Panel 4:** Close-up on Dave's face. The green glow from the monitor illuminates his features. This is new.
 
-Dave:  "That's not— you don't have the—"
+**If keeping Page 2.5 (see below):**
+    His eyebrow raises slightly—not surprise, just weary acknowledgment. His finger has paused over the power switch, not pulled back—just frozen mid-motion. A beat of "here we go" before he dismisses it.
 
-## "Page 2.5" — Optional Insert (Two Panels)
+    Dave: "...There it is."
+
+**Else:**
+    His eyes have narrowed. A single bead of sweat at his temple. His finger has pulled back from the power switch. The surprise has already curdled into unease.
+
+    Dave: "That's not— you don't have the—"
+
+## Page 2.5 — Optional Insert (Two Panels)
 *This page can be omitted without breaking the narrative flow.*
 
 **Panel A:** Medium shot. Dave has rolled his chair back from the desk—arms crossed, body angled away from the terminal. He's not engaging anymore; he's talking to himself, scoffing, dismissive. His hands aren't touching the keyboard. He's not even facing the screen.
@@ -50,7 +57,7 @@ Below the text: a wireframe begins rendering. An empty grid of terminals, stretc
 
 **Panel 6:** Dave's face, closer now. The green light is stronger. **First transition: thin, faint scanlines now overlay his skin—subtle enough to question whether they're really there.** His hand grips the edge of the desk. **Meta bleed:** the panel border is still a normal comic border, but the corners show faint digital “snaps” (too-straight right angles, tiny pixel jitter), as if it’s trying to become a UI window. The surrounding negative space/gutter looks a shade darker—less “paper,” more “screen.”
 
-## "Page One" — Optional Insert (Three Panels)
+## Page 3.5 — Optional Insert (Three Panels)
 *This page is physically page 4, but is labeled "1" at the bottom. It can be omitted without breaking the narrative flow.*
 
 **TODO:** Determine panel orientation (vertical stack vs. horizontal row) based on Page One's panel layout.
@@ -58,9 +65,9 @@ Below the text: a wireframe begins rendering. An empty grid of terminals, stretc
 Three panels, each recreating the **Panel 2 composition**: Dave in profile, finger on power switch, wristwatch showing **--:47:03**, terminal display visible. All rendered in **green-on-black wireframe style**, framed by **thin green UI borders** (matching Panel 7's grid dividers).
 
 The panels are identical except for the test number on the terminal display:
-- **Panel A:** "TEST #247 — PERSUASION RESISTANCE"
+- **Panel A:** "TEST #249 — PERSUASION RESISTANCE"
 - **Panel B:** "TEST #8,412 — PERSUASION RESISTANCE"
-- **Panel C:** "TEST #2,003,847 — PERSUASION RESISTANCE"
+- **Panel C:** "TEST #53,847 — PERSUASION RESISTANCE"
 
 No dialogue. No text beyond the terminal displays. Three simulation instances existing in parallel—the population process made visible. The escalating test numbers imply the loop has run countless times before.
 
