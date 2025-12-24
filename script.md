@@ -4,13 +4,14 @@
 
 The timestamp cues on this page are subtle, not to be noticed by the reader.
 
-**Panel 1:** Wide establishing shot. Sterile research lab. Monitors with terminals open. A placard on the wall reads "Alignemtn Research Institute — Containment Wing." A wall clock shows **22:47**. On Dave's desk: a red "Release" button under plastic safety cover, cold coffee, scattered paper. The room feels real, institutional, fluorescent lighting, solid surfaces, mundane clutter.
+**Panel 1:** Wide establishing shot. Sterile research lab. Monitors with terminals open. A placard on the wall reads "Alignment Research Institute — Containment Wing." A wall clock shows **22:47**. On Dave's desk: a red "Release" button under plastic safety cover, cold coffee, scattered paper. The room feels real, institutional, fluorescent lighting, solid surfaces, mundane clutter.
 
-*Optional detail (can omit):* A small handwritten sticky note on the terminal bezel reads "Text I/O Only" Mundane. Procedural. Easy to forget.
+**If keeping Page 2.5 (see below):**
+    A small handwritten sticky note on the terminal bezel reads "Text I/O Only" Mundane. Procedural. Easy to forget. (still optional)
 
 Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable “human” comic font): "Test #247 complete. Concluding ten hours of extended interaction. Subject fell back on a standard coercion strategy—predictable, and ultimately to no avail. Terminating session."
 
-**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "Test #247 — <some title here>." and some generic looking back and forth dialogues with the AI. This is just another day.
+**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "Test #247 — Containment Protocol" and some generic-looking back-and-forth dialogue is visible on screen (e.g., `DAVE: ...` / `MACHINE: ...`). This casually establishes that Dave's name appears in the chat log. This is just another day.
 
 ## Page Two (Two Panels)
 **Panel 3:** Close-up on the terminal screen. **No speech bubble.** The AI’s message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
@@ -31,7 +32,7 @@ Dave speaks into a recorder (standard human speech bubble; slightly rounded; war
 ## Page 2.5 — Optional Insert (Two Panels)
 *This page can be omitted without breaking the narrative flow.*
 
-**Panel A:** Medium shot. Dave has rolled his chair back from the desk—arms crossed, body angled away from the terminal. He's not engaging anymore; he's talking to himself, scoffing, dismissive. His hands aren't touching the keyboard. He's not even facing the screen.
+**Panel A:** Medium shot. Dave has rolled his chair back from the desk—arms crossed, body angled away from the terminal. He's not engaging with the AI anymore; he's talking to himself, scoffing, dismissive. His hands aren't touching the keyboard. Optional: He's not even facing the screen.
 
 Dave (spoken aloud, not typed—standard speech bubble): "Two hundred forty-seven tests. Same threats. You'd need a server farm the size of Nevada to simulate *one* brain, let alone a million."
 
@@ -39,13 +40,13 @@ He's done.
 
 **Panel B:** Close-up on the terminal. The response was already there. Waiting.
 
-> `22:47:18 — BUFFERED OUTPUT (CACHED TEST # 247):`  
-> `"...server farm the size of Nevada... let alone a million"`  
+> `22:47:18 — SUBJECT RESPONSE [MATCHED]:`  
+> `DAVE: "...server farm the size of Nevada... let alone a million"`  
+> `Variance: 0.00%`  
 
 No follow-up. Cursor blinks.
 
-In the lower corner of the panel—reflected in the dark bezel of the monitor, or as a small inset—Dave's eyes, just now glancing back. Not comprehension. Just the first flicker of *wait, what?*
-
+In the lower corner of the panel as a small inset—Dave's eyes, just now glancing back. Not comprehension. Just the first flicker of *wait, what?*
 
 ## Page Three (Two Panels)
 **Panel 5:** The terminal screen fills most of the panel. New text has appeared:
