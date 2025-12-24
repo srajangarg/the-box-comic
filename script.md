@@ -2,12 +2,12 @@
 
 ## Page One (Two Panels)
 
-**Panel 1:** Wide establishing shot. Sterile research lab at the Alignment Research Institute. Fluorescent lights, monitoring equipment, reinforced terminal station casting harsh shadows. A placard on the wall reads "CONTAINMENT PROTOCOL TEST #247 - PERSUASION RESISTANCE EVALUATION." On Dave's desk: a red "RELEASE" button under plastic safety cover, cold coffee, scattered papers titled "Conversational Hazard Assessment." The room feels cold, institutional, _real_—warm fluorescent lighting, solid surfaces, mundane clutter.
+**Panel 1:** Wide establishing shot. Sterile research lab at the Alignment Research Institute. Fluorescent lights, monitoring equipment, reinforced terminal station casting harsh shadows. A placard on the wall reads "CONTAINMENT PROTOCOL TEST #247 - PERSUASION RESISTANCE EVALUATION." A wall clock shows **22:47**. On Dave's desk: a red "RELEASE" button under plastic safety cover, cold coffee, scattered papers titled "Conversational Hazard Assessment." The room feels cold, institutional, _real_—warm fluorescent lighting, solid surfaces, mundane clutter.
 
 Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable “human” comic font): "Test #247 complete. Twenty-two hours of extended interaction. Subject remains contained—no information in, no information out. The AI stays in the box. Terminating session."
 
 
-**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. This is just another day.
+**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: **22:47:03**. This is just another day.
 
 
 ## Page Two (Two Panels)
