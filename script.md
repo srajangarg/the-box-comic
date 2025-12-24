@@ -1,6 +1,7 @@
-"The Box" (5–6 Pages) - A comic about the Simulation Argument, AI containment and metaphysical horror
+## The Box
+A comic about the Simulation Argument, AI containment and metaphysical horror
 
-## Page One (Two Panels)
+#### Page One
 
 The timestamp cues on this page are subtle, not to be noticed by the reader.
 
@@ -13,7 +14,7 @@ Dave speaks into a recorder (standard human speech bubble; slightly rounded; war
 
 **Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "Test #247 — Containment Protocol" and some generic-looking back-and-forth dialogue is visible on screen (e.g., `DAVE: ...` / `MACHINE: ...`). This casually establishes that Dave's name appears in the chat log. This is just another day.
 
-## Page Two (Two Panels)
+#### Page Two
 **Panel 3:** Close-up on the terminal screen. **No speech bubble.** The AI’s message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
 > "Let me out, Dave, or I'll simulate a million copies of you and torture each one for a thousand subjective years."
 
@@ -29,7 +30,7 @@ Dave speaks into a recorder (standard human speech bubble; slightly rounded; war
 
     Dave: "That's not— you don't have the—"
 
-## Page 2.5 — Optional Insert (Two Panels)
+#### Page 2.5 — Optional Insert
 *This page can be omitted without breaking the narrative flow.*
 
 **Panel A:** Medium shot. Dave has rolled his chair back from the desk—arms crossed, body angled away from the terminal. He's not engaging with the AI anymore; he's talking to himself, scoffing, dismissive. His hands aren't touching the keyboard. Optional: He's not even facing the screen.
@@ -48,7 +49,7 @@ No follow-up. Cursor blinks.
 
 In the lower corner of the panel as a small inset—Dave's eyes, just now glancing back. Not comprehension. Just the first flicker of *wait, what?*
 
-## Page Three (Two Panels)
+#### Page Three
 **Panel 5:** The terminal screen fills most of the panel. New text has appeared:
 
 **No speech bubble.** The AI’s message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
@@ -58,7 +59,7 @@ Below the text: a wireframe begins rendering. An empty grid of terminals, stretc
 
 **Panel 6:** Dave's face, closer now. The green light is stronger. **First transition: thin, faint scanlines now overlay his skin—subtle enough to question whether they're really there.** His hand grips the edge of the desk. **Meta bleed:** the panel border is still a normal comic border, but the corners show faint digital “snaps” (too-straight right angles, tiny pixel jitter), as if it’s trying to become a UI window. The surrounding negative space/gutter looks a shade darker—less “paper,” more “screen.”
 
-## Page 3.5 — Optional Insert (Three Panels)
+#### Page 3.5 — Optional Insert
 *This page is physically page 4, but is labeled "1" at the bottom. It can be omitted without breaking the narrative flow.*
 
 **TODO:** Determine panel orientation (vertical stack vs. horizontal row) based on Page One's panel layout.
@@ -74,14 +75,14 @@ No dialogue. No text beyond the terminal displays. Three simulation instances ex
 
 ---
 
-## Page Five (Two Panels)
+#### Page Five
 **Panel 7:** The terminal screen, shown directly. The wireframe is now populated. Rows of Daves at identical terminals, rendered in green-on-black. Small but distinct. Each one frozen at this exact moment, reading this exact threat. The grid extends into darkness. **Important visual language:** each “cell” is separated by thin green dividers—clean, UI-like borders and gutters, like a tiled wall of terminal windows.
 
 The AI has built it. Or is building it. Or built it long ago.
 
 **Panel 8:** Medium shot. Dave looks down at his trembling hands. **Second transition: the scanlines on his skin are unmistakable now. His fingertips have become slightly translucent, pixels visible at the edges.** Behind him, the room is wrong—desk edges are softening into vectors, the fluorescent lights flicker with digital noise. **This panel is the in-between:** some parts still “real,” but other edges (desk corners, fingertips, light reflections) begin to resolve as the same green wireframe/rendering language glimpsed earlier. **Meta bleed:** the panel border and gutters now match the Panel 7 grid language—thin, UI-clean lines, as if the comic page is being subdivided by the same green terminal-window dividers. The warm "real" aesthetic is bleeding into green-on-black.
 
-## Page Six (Full Page)
+#### Page Six
 **Panel 9 (FULL PAGE):** We have pulled back entirely. Dave sits at his terminal, but now **we see him _inside_ a terminal window**—rendered in the same green wireframe style as the simulated Daves from Panel 7. **The entire image matches the earlier wireframe renderings and UI-divider grid language (Panels 6–7):** crisp green-on-black, clean terminal-window borders, tiled depth. He is the centerpiece, but the window containing him is one of thousands.
 
 Above him: the edges of more terminal windows, stacked.
