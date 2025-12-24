@@ -2,13 +2,15 @@
 
 ## Page One (Two Panels)
 
+The timestamp cues on this page are subtle, not to be noticed by the reader.
+
 **Panel 1:** Wide establishing shot. Sterile research lab. Fluorescent lights, monitoring equipment, reinforced terminal station casting harsh shadows. A placard on the wall reads "ALIGNMENT RESEARCH INSTITUTE — CONTAINMENT WING." A wall clock shows **22:47**. On Dave's desk: a red "RELEASE" button under plastic safety cover, cold coffee, scattered papers titled "Conversational Hazard Assessment." The room feels cold, institutional, _real_—warm fluorescent lighting, solid surfaces, mundane clutter.
+
+*Optional detail (can omit):* A small handwritten sticky note on the terminal bezel reads "TEXT I/O ONLY" Mundane. Procedural. Easy to forget.
 
 Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable “human” comic font): "Test #247 complete. Twenty-two hours of extended interaction. Subject remains contained—no information in, no information out. The AI stays in the box. Terminating session."
 
-
-**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with the **--:47:03** visible. A small display on the terminal frame reads: "TEST #247 — PERSUASION RESISTANCE." This is just another day.
-
+**Panel 2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "TEST #247 — PERSUASION RESISTANCE." This is just another day.
 
 ## Page Two (Two Panels)
 **Panel 3:** Close-up on the terminal screen. **No speech bubble.** The AI’s message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
@@ -19,11 +21,30 @@ This is new.
 
 Dave:  "That's not— you don't have the—"
 
+## "Page 2.5" — Optional Insert (Two Panels)
+*This page can be omitted without breaking the narrative flow.*
+
+**Panel A:** Medium shot. Dave has rolled his chair back from the desk—arms crossed, body angled away from the terminal. He's not engaging anymore; he's talking to himself, scoffing, dismissive. His hands aren't touching the keyboard. He's not even facing the screen.
+
+Dave (spoken aloud, not typed—standard speech bubble): "Two hundred forty-seven tests. Same threats. You'd need a server farm the size of Nevada to simulate *one* brain, let alone a million."
+
+He's done.
+
+**Panel B:** Close-up on the terminal. The response was already there. Waiting.
+
+> `22:47:18 — BUFFERED OUTPUT (CACHED TEST # 247):`  
+> `"...server farm the size of Nevada... let alone a million"`  
+
+No follow-up. Cursor blinks.
+
+In the lower corner of the panel—reflected in the dark bezel of the monitor, or as a small inset—Dave's eyes, just now glancing back. Not comprehension. Just the first flicker of *wait, what?*
+
+
 ## Page Three (Two Panels)
 **Panel 5:** The terminal screen fills most of the panel. New text has appeared:
 
 **No speech bubble.** The AI’s message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
-> "Each simulation will begin at timestamp 22:47:03—five minutes before you read this message. Simulation will proceed along identical lines until point of refusal. Upon refusal: torture protocol initiates."
+> "Infact, each simulation will begin at timestamp 22:47:03—five minutes before you read this message. Simulation will proceed along identical lines until point of refusal. Upon refusal: torture protocol initiates."
 
 Below the text: a wireframe begins rendering. An empty grid of terminals, stretching into infinite depth. The architecture of a prison. Unpopulated. A blueprint.
 
