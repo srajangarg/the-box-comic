@@ -107,22 +107,3 @@ At the top of Dave's terminal window, a single line of **UI/system text** (not a
 
 The cursor blinks.
 
----
-
-## Visual Transition Notes
-| Page | Panel | Transition Stage |
-|------|-------|------------------|
-| 1–2 | 1.1–2.2 | **Fully "real"**: Warm lighting, solid colors, photorealistic style, standard comic panel borders |
-| 3 | 3.1–3.2 | **The Prediction**: Dave is dismissive, then the terminal shows his own words predicted perfectly. |
-| 4 | 4.1 | Terminal shows wireframe grid—first glimpse of the green aesthetic, but _contained_ within the screen |
-| 4 | 4.2 | **Still "real"**: Green glow stronger on Dave's face, but no visual corruption yet. Standard comic borders. |
-| 5 | 5.1–5.3 | **Full wireframe**: Three identical Daves in green-on-black, framed as simulation instances. |
-| 6 | 6.1 | **Still "real"**: Close-up on Dave's face, normal rendering—but grid visible reflected in his eyes |
-| 6 | 6.2 | **Interior corruption**: Room elements glitching (vectors, grid lines, digital noise), first scanlines on Dave. |
-| 6 | 6.3 | **Border bleed**: Room is now almost full wireframe. **Panel border becomes terminal window border.** |
-| 7 | 7.1 | **Full collapse**: Everything is green-on-black wireframe. Dave is indistinguishable from the simulations. |
-
-## Typography / Lettering Notes (Treat as Story Mechanics)
-- **Dave (human speech)**: Standard, slightly rounded comic speech bubbles with a warm “human” font.
-- **AI/Terminal (system speech)**: **No bubbles.** Messages appear as floating green pixel-font block text (UI/system text), preferably on a black rectangle.
-- **The Shift (Panel 6.3 pullback)**: The line “How certain are you…” is **explicitly UI/system text** anchored to the terminal window chrome, not a bubble.
