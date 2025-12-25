@@ -68,7 +68,7 @@ Below the text: a wireframe begins rendering. An empty grid of terminals, stretc
 #### Page 3.5 — Optional Insert
 *This page is physically page 4, but is labeled "1" at the bottom. It can be omitted without breaking the narrative flow.*
 
-**TODO:** Determine panel orientation (vertical stack vs. horizontal row) based on Page One's panel layout.
+**TODO:** Determine panel orientation (vertical stack vs. horizontal row)
 
 Three panels, each recreating the **Panel 2 composition**: Dave in profile, finger on power switch, wristwatch showing **--:47:03**, terminal display visible. All rendered in **green-on-black wireframe style**, framed by **thin green UI borders** (matching Panel 7's grid dividers).
 
