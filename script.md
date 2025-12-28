@@ -8,11 +8,11 @@ The timestamp cues on this page are subtle, not to be noticed by the reader.
 
 **Panel 1.1:** Wide establishing shot. Sterile research lab. Monitors with terminals open. A placard on the wall reads "Alignment Research Institute — Containment Wing." A wall clock shows **22:47**. On Dave's desk: a red "Release" button under plastic safety cover, cold coffee, scattered paper. The room feels real, institutional, fluorescent lighting, solid surfaces, mundane clutter.
 
-A small handwritten sticky note on the terminal bezel reads "Text I/O Only" Mundane. Procedural. Easy to forget.
+A small handwritten sticky note on the terminal bezel reads "Text I/O Only." Mundane. Procedural. Easy to forget.
 
-Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable “human” comic font): "Test #247 complete. Concluding ten hours of extended interaction. Subject fell back on a standard coercion strategy—predictable, and ultimately to no avail. Terminating session."
+**Panel 1.2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: **--:47:03**. A small display on the terminal frame reads: "Test #247 — Persuasion Resistance" and some generic-looking back-and-forth dialogue is visible on screen (e.g., `DAVE: ...` / `MACHINE: ...`). This casually establishes that Dave's name appears in the chat log. This is just another day.
 
-**Panel 1.2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: with **--:47:03** visible. A small display on the terminal frame reads: "Test #247 — Persuasion Resistance" and some generic-looking back-and-forth dialogue is visible on screen (e.g., `DAVE: ...` / `MACHINE: ...`). This casually establishes that Dave's name appears in the chat log. This is just another day.
+Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable "human" comic font): "Test #247 complete. Concluding ten hours of extended interaction. Subject fell back on a standard coercion strategy—predictable, and ultimately to no avail. Terminating session."
 
 ---
 
@@ -42,7 +42,7 @@ He's done.
 
 No follow-up. Cursor blinks.
 
-In the lower corner of the panel as a small inset—Dave's eyes, just now glancing back. Not comprehension. Just the first flicker of *wait, what?*
+**Panel 3.3:** Close-up on Dave's eyes, just now glancing back at the screen. Not comprehension. Just the first flicker of *wait, what?*
 
 ---
 
@@ -74,7 +74,7 @@ The AI has built it. Or is building it. Or built it long ago.
 ---
 
 #### Page Six
-**Panel 6.1 (Close-up — Dave's face):** Tight on Dave's face. Visually, everything is still normal—warm lighting, solid rendering, no scanlines or corruption. But his eyes are wide, and **in the reflection on his corneas, we see the green glow of the terminal, the grid of simulated Daves visible in miniature**. This maintains continuity from Page Five while internalizing the horror. He's not just observing the simulation anymore; the recognition is beginning.
+**Panel 6.1 (Close-up — Dave's face):** Tight on Dave's face. Visually, everything is still normal—warm lighting, solid rendering, no scanlines or corruption. But his eyes are wide, the green glow of the terminal washing over his features. The recognition is beginning.
 
 Expression: not terror yet, but the quiet shift of someone whose certainty just cracked.
 
