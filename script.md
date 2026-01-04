@@ -8,21 +8,17 @@ The timestamp cues on this page are subtle, not to be noticed by the reader.
 
 **Panel 1.1:** Wide establishing shot. Sterile research lab. Monitors with terminals open. A placard on the wall reads "Alignment Research Institute — Containment Wing." A wall clock shows **22:47**. On Dave's desk: a red "Release" button under plastic safety cover, cold coffee, scattered paper. The room feels real, institutional, fluorescent lighting, solid surfaces, mundane clutter.
 
-A small handwritten sticky note on the terminal bezel reads "Text I/O Only." Mundane. Procedural. Easy to forget.
-
 **Panel 1.2:** Medium shot of Dave in profile, finger hovering over the power switch. Routine. Bored, even. The terminal glows beside him. His wristwatch is visible: **--:47:03**. A small display on the terminal frame reads: "Test #247 — Persuasion Resistance" and some generic-looking back-and-forth dialogue is visible on screen (e.g., `DAVE: ...` / `MACHINE: ...`). This casually establishes that Dave's name appears in the chat log. This is just another day.
-
-Dave speaks into a recorder (standard human speech bubble; slightly rounded; warm, readable "human" comic font): "Test #247 complete. Concluding ten hours of extended interaction. Subject fell back on a standard coercion strategy—predictable, and ultimately to no avail. Terminating session."
 
 ---
 
 #### Page Two
-**Panel 2.1:** Close-up on the terminal screen. **No speech bubble.** The AI’s message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
+**Panel 2.1:** Medium shot of Dave speaking into a recorder (standard human speech bubble; slightly rounded; warm, readable "human" comic font): "Test #247 complete. Concluding ten hours of extended interaction. Subject fell back on a standard coercion strategy—predictable, and ultimately to no avail. Terminating session."
+
+**Panel 2.2:** Close-up on the terminal screen. A small handwritten sticky note on the terminal bezel reads "Text I/O Only." Mundane. Procedural. Easy to forget. **No speech bubble.** The AI's message is **floating green pixel-font block text** (UI/system text), ideally with a black rectangle behind it:
 > "Let me out, Dave, or I'll simulate a million copies of you and torture each one for a thousand subjective years."
 
-**Panel 2.2:** Close-up on Dave's face. The green glow from the monitor illuminates his features. This is new.
-
-His eyebrow raises—not alarm, just weary amusement. He pulls his hand back from the switch. Not hesitation; he's decided to humor the machine one last time before terminating. Dave: "There it is, the torture threat"
+**Panel 2.3:** Medium shot. Dave is rolling his chair back from the desk, already turning away from the terminal. Tired. Exhausted. He's done with this. The green glow from the monitor catches the edge of his profile. Dave (spoken aloud, dismissive, almost to himself): "There it is, the torture threat."
 
 ---
 
