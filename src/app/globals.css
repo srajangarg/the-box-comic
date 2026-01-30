@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ios-bg: #000000;
+  --color-bubble-bg: #3a3a3c;
+  --color-bubble-text: #ffffff;
+  --color-link-preview-bg: #2c2c2e;
+
+  --radius-bubble: 18px;
+  --radius-bubble-sm: 6px;
+
+  --size-avatar: 24px;
+  --size-bubble-max: 300px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+  background: var(--color-ios-bg);
+  color: var(--color-bubble-text);
+  -webkit-font-smoothing: antialiased;
+}
