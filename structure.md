@@ -15,6 +15,15 @@ why simulations?
 
 
 
+    eerie how we're already simulating stuff
+
+        llms simulate personas
+
+        genie, simulates phsycis of the world
+
+        etc
+        
+
 why simulate us now tho?
 
     notes from article
@@ -34,71 +43,85 @@ why simulate us now tho?
         why is rsi like that? 
 
 
-the rsi / takeoff aysmptote
+the takeoff
 
+    https://edoras.sdsu.edu/~vinge/misc/singularity.html
+    https://www.lesswrong.com/w/singularity
     https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html
-
-    (in these, i need to frame things in terms of intelligence, not humans)
-
-    compare tech progress againt amount of humans
-
-    compare speed of information exchange w time
-
-        kurzweil
-
-        ai allows bigger ideas faster
-
-        how the intelligence is upgrading itself
+    nick bostrom superintelligence
+    kurzweil
+    https://www.yudkowsky.net/singularity/schools
 
 
-    compare amount of energy harnessed
+    we live in crazy times, things are exponential
 
-    compare amount of physical matter moved
+        human gdp meme
+            but its anthropogenci and can be goodharted, it doesnt really mene anything
 
-    industrial revolution kicked off rsi
+        ok lets look at morefundamental things
+            compare amount of energy harnessed
+                - entropy
 
-        emphasize how recent technological discovery is
+            compare amount of physical matter moved
 
-            we didnt know cells existed
+        now lets look at recent tech
 
+            compare speed of information exchange w time
+            internet speed
+            memory, processing power, internet bandwidth
+            kurzweil's points
+
+
+    we live in crazy times, look how far we've come
+        some reminders of how FAST we are moving and how NEW everything is
+            we didnt know cells existed / vital life
+            germs
             electricity
-
             computing as a concept
+            imagine bringing a man from ... to ...
 
-            etc
+        at the cutting edge
+            deeplearning was figured out 10 years ago
+            llms came about 3 years ago
+            digital minds from sand (that tsmc article?)
+            IMO math problems, speculation on massive job loss
 
-    ai rsi
 
-    absurdity of ai
+    there's explanations for why they're exponential
+        RECURSIVE SELF IMPROVEMENT -- chalmer's thesis?
 
-        digital minds from sand (that tsmc article?)
+        birth of scientific method / industrial revolution kicked off rsi
+            the takeoff started in 1600s. no it started when the printing press
+            no it started with language, no it started with 
+            the entire history of the unvierse feels like an exercise in this improvement
+                what improvement -- something entropy related? how do we define intelligence??
 
-        deep learning works is so weird
+        kurzweil's accelerating returns
 
-            we are not much more than simple algorithms over our sensory data?
+        bostrom's inevitability
 
-        llms works is so weird
+        yud's explosion
 
-            human language has been the medium of gettings things done in the world. 
-            efftively in the erra of ideas -> can do things in physical word 
 
-            ai accelerates that or makes accerleration invetiable?
+    there's evidence right now in front of your eyes, why it will stay exponential
 
-    eerie how we're already simulating stuff
+        (maybe borrow from absurdity chapter for dramatic effect?)
 
-        llms simulate personas
+        AI RSI is so close
 
-        genie, simulates phsycis of the world
+     
 
-        etc
 
-explains
+this arguemnt explains
 
     fermi paradox
 
     
 
 its so high variance
+    my weakest argument, imo, because it can be argued that we've been in very high variance scenarios in the past as well
+        counter: the high-variance is just startingn off?
+        counter: the prev high variance was important in defining current world state (e.g. we could have reached faster if stuck to nuclear)
 
     ai experts disagreement
 
@@ -112,6 +135,5 @@ its so high variance
     hypercapitalism + informaiton markets
 
 
-    
 
 fiction: what happens once humanity realizes and proves we are in a simualtion?
