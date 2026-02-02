@@ -19,3 +19,19 @@ body {
   color: var(--color-bubble-text);
   -webkit-font-smoothing: antialiased;
 }
+
+.chat-link {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 50%, transparent);
+  text-underline-offset: 0.2em;
+}
+
+.chat-link::after {
+  content: "\00A0\2197";
+  font-size: 0.7em;
+  white-space: nowrap;
+  text-decoration: none;
+  display: inline-block;
+  color: color-mix(in srgb, currentColor 50%, transparent);
+  vertical-align: super;
+}

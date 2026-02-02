@@ -28,24 +28,28 @@ const messages: MessageData[] = [
   {
     text: "",
     image: "/kardahsev_dreams.png",
+    caption: "[Kardashev scale](https://en.wikipedia.org/wiki/Kardashev_scale) visualization",
     endGroup: true,
   },
 
   {
     text: "",
     image: "/cern.png",
+    caption: "[CERN](https://home.cern/)'s Large Hadron Collider",
     endGroup: true,
   },
 
   {
     text: "how we can bottle the sun",
     image: "/tokamak1.png",
+    caption: "[ITER](https://www.iter.org/) tokamak reactor design",
     endGroup: true,
   },
 
   {
     text: "",
     image: "/pentium2.png",
+    caption: "Intel Pentium II processor, 1997",
     endGroup: true,
   },
 
@@ -63,6 +67,7 @@ const messages: MessageData[] = [
   {
     text: "",
     image: "/erdos.png",
+    caption: "[Paul Erdős](https://en.wikipedia.org/wiki/Paul_Erd%C5%91s), prolific mathematician",
     endGroup: true,
   },
 
@@ -101,12 +106,14 @@ const messages: MessageData[] = [
     text: "",
     topic: "evidence",
     image: "/claudersi.png",
+    caption: "Claude improving Claude",
     endGroup: true,
   },
 
   {
     text: "",
     image: "/rsi.webp",
+    caption: "Recursive self-improvement loop",
     endGroup: true,
   },
 
@@ -115,6 +122,7 @@ const messages: MessageData[] = [
     text: "far too difficult to predict.",
     topic: "the future",
     image: "/hinton.jpeg",
+    caption: "[Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton), 2024",
     endGroup: true,
   },
 ];

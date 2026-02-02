@@ -16,9 +16,9 @@ export interface MessageData {
   text: string;
   topic?: string;
   endGroup?: boolean;
-  emoji?: boolean;
   link?: LinkData;
   image?: string;
+  caption?: string;
 }
 
 interface ProcessedMessage extends MessageData {
@@ -45,12 +45,12 @@ interface MessageProps {
   text: string;
   isFirst: boolean;
   isLast: boolean;
-  isEmoji?: boolean;
   avatar: string;
   timestamp: string | null;
   topic?: string;
   link?: LinkData;
   image?: string;
+  caption?: string;
   onImageClick?: (src: string) => void;
 }
 
@@ -86,15 +86,8 @@ function parseTextWithLinks(text: string): React.ReactNode {
       parts.push(text.slice(lastIndex, match.index));
     }
     parts.push(
-      <Link
-        key={match.index}
-        href={match[2]}
-        className="text-white no-underline border-b border-white/35 pb-px"
-      >
+      <Link key={match.index} href={match[2]} className="chat-link">
         {match[1]}
-        <span className="text-[11px] opacity-50 whitespace-nowrap">
-          {"\u00A0\u2197"}
-        </span>
       </Link>
     );
     lastIndex = regex.lastIndex;
@@ -310,12 +303,12 @@ function Message({
   text,
   isFirst,
   isLast,
-  isEmoji,
   avatar,
   timestamp,
   topic,
   link,
   image,
+  caption,
   onImageClick,
 }: MessageProps): React.ReactElement {
   const showMarker = timestamp || topic;
@@ -327,8 +320,7 @@ function Message({
   const bubbleClasses = classNames(
     baseBubbleClass,
     !isFirst && "rounded-tl-[6px]",
-    !isLast && "rounded-bl-[6px]",
-    isEmoji && "bg-transparent text-5xl p-0 leading-tight"
+    !isLast && "rounded-bl-[6px]"
   );
 
   const rowClasses = classNames(
@@ -355,18 +347,25 @@ function Message({
 
   if (image) {
     const hasText = text && text.trim().length > 0;
+    const hasCaption = caption && caption.trim().length > 0;
+    const parsedCaption = caption ? parseTextWithLinks(caption) : null;
 
-    const imageButtonClasses = classNames(
-      "block w-full text-left cursor-zoom-in max-h-[450px] overflow-hidden",
-      hasText ? "rounded-t-[18px] rounded-b-[6px]" : "rounded-[18px]",
+    const textAboveClasses = classNames(
+      "px-3.5 py-2 bg-[#3a3a3c] text-white text-[17px] leading-snug tracking-tight break-words",
+      "rounded-t-[18px]",
       !isFirst && "rounded-tl-[6px]"
     );
 
-    const captionClasses = classNames(
-      "px-3.5 py-2 bg-[#3a3a3c] text-white text-[17px] leading-snug tracking-tight break-words",
-      "rounded-t-[6px] rounded-b-[18px] mt-px",
-      !isLast && "rounded-bl-[6px]"
+    const imageButtonClasses = classNames(
+      "block w-full text-left cursor-zoom-in max-h-[450px] overflow-hidden",
+      !hasText && "rounded-t-[18px]",
+      !hasText && !isFirst && "rounded-tl-[6px]",
+      !hasCaption && "rounded-b-[18px]",
+      !hasCaption && !isLast && "rounded-bl-[6px]"
     );
+
+    const captionClasses =
+      "text-right py-1.5 text-white/70 text-[14px] italic leading-snug tracking-tight break-words mt-px";
 
     return (
       <>
@@ -374,6 +373,7 @@ function Message({
         <div className={rowClasses}>
           <Avatar src={avatar} visible={isLast} />
           <div className="max-w-[300px]">
+            {hasText && <div className={textAboveClasses}>{parsedText}</div>}
             <button
               type="button"
               onClick={() => onImageClick?.(image)}
@@ -387,7 +387,7 @@ function Message({
                 className="w-full h-auto"
               />
             </button>
-            {hasText && <div className={captionClasses}>{parsedText}</div>}
+            {hasCaption && <div className={captionClasses}>{parsedCaption}</div>}
           </div>
         </div>
       </>
@@ -441,12 +441,12 @@ export function Chat({ title, avatar, messages }: ChatProps): React.ReactElement
           text={msg.text}
           isFirst={msg.isFirst}
           isLast={msg.isLast}
-          isEmoji={msg.emoji}
           avatar={avatar}
           timestamp={msg.timestamp}
           topic={msg.topic}
           link={msg.link}
           image={msg.image}
+          caption={msg.caption}
           onImageClick={setViewingImage}
         />
       ))}
