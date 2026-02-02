@@ -1,8 +1,136 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState, useRef, useCallback, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+
+// Fullscreen Image Viewer with pinch-to-zoom
+function ImageViewer({ src, onClose }: { src: string; onClose: () => void }) {
+  const [scale, setScale] = useState(1);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const lastDistance = useRef<number | null>(null);
+  const lastPosition = useRef({ x: 0, y: 0 });
+  const isDragging = useRef(false);
+
+  const getDistance = (t1: React.Touch, t2: React.Touch) => {
+    return Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
+  };
+
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    if (e.touches.length === 2) {
+      lastDistance.current = getDistance(e.touches[0], e.touches[1]);
+    } else if (e.touches.length === 1 && scale > 1) {
+      isDragging.current = true;
+      lastPosition.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    }
+  }, [scale]);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    if (e.touches.length === 2 && lastDistance.current !== null) {
+      e.preventDefault();
+      const newDistance = getDistance(e.touches[0], e.touches[1]);
+      const delta = newDistance / lastDistance.current;
+      setScale((s) => Math.min(Math.max(s * delta, 1), 5));
+      lastDistance.current = newDistance;
+    } else if (e.touches.length === 1 && isDragging.current && scale > 1) {
+      e.preventDefault();
+      const deltaX = e.touches[0].clientX - lastPosition.current.x;
+      const deltaY = e.touches[0].clientY - lastPosition.current.y;
+      setPosition((p) => ({ x: p.x + deltaX, y: p.y + deltaY }));
+      lastPosition.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    }
+  }, [scale]);
+
+  const handleTouchEnd = useCallback(() => {
+    lastDistance.current = null;
+    isDragging.current = false;
+    if (scale <= 1) {
+      setPosition({ x: 0, y: 0 });
+    }
+  }, [scale]);
+
+  const handleDoubleClick = useCallback(() => {
+    if (scale > 1) {
+      setScale(1);
+      setPosition({ x: 0, y: 0 });
+    } else {
+      setScale(2.5);
+    }
+  }, [scale]);
+
+  // Handle back button and escape key
+  useEffect(() => {
+    // Push a history state so back button closes the viewer
+    window.history.pushState({ imageViewer: true }, "");
+
+    const handlePopState = () => {
+      onClose();
+    };
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        // Go back to remove our pushed state
+        window.history.back();
+      }
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("popstate", handlePopState);
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [onClose]);
+
+  // Prevent body scroll when viewer is open
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, []);
+
+  // Close handler that also manages history
+  const handleClose = useCallback(() => {
+    window.history.back();
+  }, []);
+
+  return (
+    <div
+      className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center"
+      onClick={scale === 1 ? handleClose : undefined}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+    >
+      <button
+        onClick={handleClose}
+        className="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center text-white/70 hover:text-white text-2xl"
+        aria-label="Close"
+      >
+        ×
+      </button>
+      <div
+        className="w-full h-full flex items-center justify-center p-4"
+        onDoubleClick={handleDoubleClick}
+      >
+        <Image
+          src={src}
+          alt=""
+          width={1200}
+          height={800}
+          className="max-w-full max-h-full object-contain select-none"
+          style={{
+            transform: `translate(${position.x}px, ${position.y}px) scale(${scale})`,
+            transition: isDragging.current ? "none" : "transform 0.2s ease-out",
+          }}
+          draggable={false}
+        />
+      </div>
+    </div>
+  );
+}
 
 // Types
 export interface LinkData {
@@ -18,6 +146,7 @@ export interface MessageData {
   endGroup?: boolean;
   emoji?: boolean;
   link?: LinkData;
+  image?: string;
 }
 
 interface ProcessedMessage extends MessageData {
@@ -118,6 +247,8 @@ function Message({
   timestamp,
   topic,
   link,
+  image,
+  onImageClick,
 }: {
   text: string;
   isFirst: boolean;
@@ -127,6 +258,8 @@ function Message({
   timestamp: string | null;
   topic?: string;
   link?: LinkData;
+  image?: string;
+  onImageClick?: (src: string) => void;
 }) {
   const bubbleClasses = [
     "max-w-[300px] px-3.5 py-2 bg-[#3a3a3c] text-white text-[17px] leading-snug tracking-tight break-words rounded-[18px]",
@@ -170,6 +303,46 @@ function Message({
     );
   }
 
+  if (image) {
+    const hasText = text && text.trim().length > 0;
+    return (
+      <>
+        {showMarker && <SectionMarker time={timestamp} topic={topic} />}
+        <div className={rowClasses}>
+          {avatarEl}
+          <div className="max-w-[300px]">
+            <button
+              type="button"
+              onClick={() => onImageClick?.(image)}
+              className={[
+                "block w-full text-left cursor-zoom-in max-h-[450px] overflow-hidden",
+                hasText ? "rounded-t-[18px] rounded-b-[6px]" : "rounded-[18px]",
+                !isFirst && "rounded-tl-[6px]",
+              ].filter(Boolean).join(" ")}
+            >
+              <Image
+                src={image}
+                alt=""
+                width={300}
+                height={450}
+                className="w-full h-auto"
+              />
+            </button>
+            {hasText && (
+              <div className={[
+                "px-3.5 py-2 bg-[#3a3a3c] text-white text-[17px] leading-snug tracking-tight break-words",
+                "rounded-t-[6px] rounded-b-[18px] mt-px",
+                !isLast && "rounded-bl-[6px]",
+              ].filter(Boolean).join(" ")}>
+                {parsedText}
+              </div>
+            )}
+          </div>
+        </div>
+      </>
+    );
+  }
+
   return (
     <>
       {showMarker && <SectionMarker time={timestamp} topic={topic} />}
@@ -193,11 +366,12 @@ export function Chat({
 }) {
   const startTime = useMemo(() => new Date(), []);
   const SECONDS_PER_MESSAGE = 4;
+  const [viewingImage, setViewingImage] = useState<string | null>(null);
 
   const processedMessages: ProcessedMessage[] = messages.map((msg, index) => {
     const prevMsg = messages[index - 1];
-    const isFirst = !prevMsg || prevMsg.endGroup;
-    const isLast = msg.endGroup || index === messages.length - 1;
+    const isFirst = !prevMsg || !!prevMsg.endGroup;
+    const isLast = !!msg.endGroup || index === messages.length - 1;
 
     let timestamp: string | null = null;
     if (msg.topic) {
@@ -228,8 +402,13 @@ export function Chat({
           timestamp={msg.timestamp}
           topic={msg.topic}
           link={msg.link}
+          image={msg.image}
+          onImageClick={setViewingImage}
         />
       ))}
+      {viewingImage && (
+        <ImageViewer src={viewingImage} onClose={() => setViewingImage(null)} />
+      )}
     </div>
   );
 }
